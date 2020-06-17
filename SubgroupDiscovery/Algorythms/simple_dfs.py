@@ -10,7 +10,7 @@ from SubgroupDiscovery.Algorythms import alg_interface as ialg
 from SubgroupDiscovery import boolean_expressions as bexp
 from SubgroupDiscovery.QualityFunctions import base_qual as bq
 
-@zope.interface.implementer(ialg.IAlgorythm)
+@zope.interface.implementer(ialg.IAlgorithm)
 class SimpleDFS:
     alg_name = 'SimpleDFS'
     values_restrict = dict()
